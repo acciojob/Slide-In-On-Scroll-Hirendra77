@@ -11,8 +11,7 @@ const sliderImages = document.querySelectorAll('.slide-in');
                 const isNotScrolledPast = window.scrollY < imageBottom;
                 if (isHalfShown && isNotScrolledPast) {
                     sliderImage.classList.add('active');
-                } 
-				else {
+                } else {
                     sliderImage.classList.remove('active');
                 }
             });
